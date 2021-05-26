@@ -72,12 +72,6 @@ input{
 .equal{
     grid-column: 2/4;
 }
-.seven{
-    background-image: linear-gradient(180deg, #ffffff 0%, #E5EFFB 56%);
-}
-.eight{
-    background-image: linear-gradient(180deg, #ffffff 0%, #E5EFFB 56%);
-}
-.nine{
-    background-image: linear-gradient(180deg, #ffffff 0%, #E5EFFB 56%);
+input, .buttons-container > div{
+    cursor: default;
 }
