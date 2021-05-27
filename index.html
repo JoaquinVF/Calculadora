@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/icons8-calculator-80.png"/>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -18,25 +19,25 @@
     </div>
     <div class="container">
         <div class="inner-container">
-            <input type="number" value="0" required>
+            <input type="number" value="0" id="result" required>
             <div class="buttons-container">
-                <div class="seven">7</div>
-                <div class="eight">8</div>
-                <div class="nine">9</div>
-                <div class="four">4</div>
-                <div class="five">5</div>
-                <div class="six">6</div>
-                <div class="one">1</div>
-                <div class="two">2</div>
-                <div class="three">3</div>
-                <div class="zero">0</div>
-                <div class="+">+</div>
-                <div class="-">-</div>
-                <div class="*">*</div>
-                <div class="/">/</div>
-                <div class="%">%</div>
-                <div class="C">C</div>
-                <div class="equal">=</div>
+                <div class="seven" name="data-number">7</div>
+                <div class="eight" name="data-number">8</div>
+                <div class="nine" name="data-number">9</div>
+                <div class="four" name="data-number">4</div>
+                <div class="five" name="data-number">5</div>
+                <div class="six" name="data-number">6</div>
+                <div class="one" name="data-number">1</div>
+                <div class="two" name="data-number">2</div>
+                <div class="three" name="data-number">3</div>
+                <div class="zero" name="data-number">0</div>
+                <div class="+" name="data-opera">+</div>
+                <div class="-" name="data-opera">-</div>
+                <div class="*" name="data-opera">*</div>
+                <div class="/" name="data-opera">/</div>
+                <div class="%" name="data-opera">%</div>
+                <div class="C" name="data-delete">C</div>
+                <div class="equal" id="equal" name="data-equal">=</div>
             </div>
         </div>
     </div>
@@ -45,4 +46,5 @@
     </footer>
 </body>
 <script src="./index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </html>
